@@ -1,0 +1,329 @@
+.product-item {
+    background-color: gray;
+	display: inline-block;
+	height: 25px;
+	padding: 5px;
+	border-radius: 5px;
+  position: relative;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.amount {
+	background-color: yellow;
+	border-radius: 10px;
+	
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+body {
+    background-color: #ccc;
+  }
+  
+  .container {
+    min-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .box {
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .left {
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .right {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+  
+  .sub-box {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .sub-box:nth-child(even){
+    border-radius: 10px solid #ccc;
+  }
+  .sub-box:nth-child(n+2) {
+    border-top: 2px solid #ccc;
+}
+  @media screen and (max-width: 500px) {
+    .box {
+      width: 100%;
+    }
+  
+    .left {
+      width: 100%;
+      
+    }
+  
+    .right {
+      width: 100%;
+    }
+  }
+  g {
+    font-family: "Arial", sans-serif;
+    font-size: 35px;
+}
+.search-input {
+  margin-top:15.5px;
+  width: 74%;
+  height:64px ;
+  font-size: 35px;
+  border-radius: 10px;
+}
+.search-form {
+    text-align: center;
+    
+   
+}
+
+
+
+.search-button {
+    
+    background-color: blue;
+    color:white;
+    width: 22%;
+    height:70px ;
+    font-size: 35px;
+    border-radius: 10px;
+    border: 0px;
+}
+.crossed-text {
+    text-decoration: line-through;
+}
+  
+.container2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-size: 35px;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    border: 0px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: relative;
+  }
+  .circle2 {
+    border-radius: 50%;
+    background-color:green;
+    color: white;
+    position: relative;
+  }
+  .square {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .rectangle {
+    width: 120px;
+    background-color:lightgray;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;  
+}
+  .amountL{
+    border-radius: 10px;
+    background-color: lightgray;
+   }
+   .square:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .square:hover::after {
+    opacity: 1;
+  }
+  .circle:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .circle:hover::after {
+    opacity: 1;
+  }
+  .circle2:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .circle2:hover::after {
+    opacity: 1;
+  }
+  .rectangle:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .rectangle:hover::after {
+    opacity: 1;
+  }
+  .fruit {
+    position: relative;
+    margin-left: 30px;
+    top: 33px;
+    font-family: "Arial", sans-serif;
+    font-size: 35px;
+  }
+   button:nth-of-type(5) {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  button:nth-of-type(2) {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  button:nth-of-type(4) {
+    margin-left:200px;
+  }
+  
+  button:nth-of-type(3) {
+    margin-right: 0px;
+  }
+  button:nth-of-type(1) {
+    margin-left:150px;
+  }
+  .hard-search {
+    color:white;
+    width: 200px;
+    font-size: 25px;
+    margin-top: -100px;
+    margin-left: 105px;
+}
+.empty{
+    background-color:white;
+}
+.nomoreleft{
+    opacity: 50%;
+}
+
+
+
+.badge {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: darkviolet;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: transform 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.badge:hover {
+  background-color: rgb(25, 30, 109);
+  transform: translateY(-10px);
+}
+
+.badge-info {
+  display: none;
+  padding-top: 5px;
+}
+
+.badge:hover .badge-info {
+  display: block;
+}
+
+.badge-info span {
+  display: block;
+}
+
+@media print {
+  .badge {
+    background-color: white;
+    color: darkviolet;
+    border: 2px solid darkviolet;
+  }
+
+  .badge .badge-text {
+    display: none;
+  }
+
+  .badge-info {
+    display: block;
+    color: darkviolet;
+  }
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
